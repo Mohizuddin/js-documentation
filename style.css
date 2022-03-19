@@ -109,3 +109,8 @@ main .code {
   padding: 15px;
   border-radius: 8px;
 }
+
+main .MDN {
+  color: dodgerblue;
+  text-decoration: none;
+}
