@@ -136,10 +136,15 @@
         <div class="code">if (condition_1) { statement_1; } else if (condition_2) { statement_2; <br><br> 
         } else if (condition_n) { statement_n; } else { statement_last; }</div>
         <p> In the case of multiple conditions only the first logical condition which evaluates to true will be executed. To execute multiple statements, group them within a block statement ({ ... }) . In general, it's good practice to always use block statements, especially when nesting if statements: </p>
-        <div class="code">if (condition) { statement_1_runs_if_condition_is_true; <br><br>
+        <div class="code"><h6>if (condition) { statement_1_runs_if_condition_is_true;
+          <br><br>
         statement_2_runs_if_condition_is_true; } else {
         <br><br>
-        statement_3_runs_if_condition_is_false;<br><br>        statement_4_runs_if_condition_is_false; }</div>
+       statement_3_runs_if_condition_is_false;
+       <br><br>
+       statement_4_runs_if_condition_is_false; }
+      </h6> 
+        </div>
         <p> It is advisable to not use simple assignments in a conditional expression, because the assignment can be confused with equality when glancing over the code. For example, do not use the following code: </p>
         <div class="code">if (x = y) { /* statements here */ }</div>
         <p> If you need to use an assignment in a conditional expression, a common practice is to put additional parentheses around the assignment. For example: </p>

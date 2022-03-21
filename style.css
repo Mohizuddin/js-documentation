@@ -110,6 +110,17 @@ main .code {
   border-radius: 8px;
 }
 
+main .code h6 {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 600px) {
+  main .code h6 {
+    font-size: 12.5px;
+  }
+}
+
 main .MDN {
   color: dodgerblue;
   text-decoration: none;
